@@ -1,0 +1,127 @@
+*{
+    font-family: 'Norwester', sans-serif;
+}
+
+#main{
+    background-color: rgb(244,246,246,255);
+    width: 100%;
+    height: 480vh;
+    padding-top: 100px;
+}
+
+#ads{
+    background-image: url("./media/supermarket-banner-concept-with-ingredients.jpg");
+    
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:20px 20px;
+   
+    
+}
+#title{
+    margin-left: 50%;
+    padding-top: px;
+    font-size: 50px;
+
+}
+#pa{
+    margin-left: 50%;
+}
+#bt{
+    margin-left: 50%;
+    
+}
+#img1{
+    margin-left: 50px;
+ 
+}
+#card1:hover{
+
+transform: scale(1.2);
+
+}
+#btns{
+ width: 100px;
+margin-left: 80px;
+}
+#back{
+    background-image: url("./media/abstract-smooth-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
+    
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    
+}
+#text{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#del{
+    margin-top: -30px;
+}
+#dis{
+    background-color: orange;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 50px;
+    color: white;
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+#dis h2{
+    margin-top: 50px;
+}
+#dis img{
+    margin-left: 20px;
+}
+footer{
+    background-color: rgb(210, 196, 171);
+    margin-top: 50px;
+    
+    padding: 50px 50px;
+
+    
+    
+ 
+   
+}
+li{font-weight: 300;
+
+}
+#logo a{
+text-decoration: none;
+}
+#dept h3{
+    margin-left: 10px;
+}
+#about h3{
+    margin-left: 10px;
+}
+#service h3{
+    margin-left: 10px;
+}
+#flex{
+    display: flex;
+        justify-content: space-around;
+}
+#use{
+    display: flex;
+   justify-content: space-around;
+
+}

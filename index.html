@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Mart</title>
+    <link rel="stylesheet" href="./style.css">
+
+        <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- font -->
+<link href="https://fonts.cdnfonts.com/css/norwester" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="main">
+
+<!-- nav -->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./media/logo-removebg-preview.png" alt="" width="50px">FRESH MART</a>
+    <form class="d-flex ;" role="search">
+          <input class="form-control me-3 " type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ITEMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">CART</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="ads" class="container ">
+<h1 id="title">we bring the store <br> to your door</h1>
+<p id="pa">Get organic produce and sustainably sourced <br> groceries delivery at up to 5% off grocery</p>
+<button class="btn btn-warning py-3 px-4" id="bt">Shop Now</button>
+
+
+
+
+
+</div>
+
+<!-- items -->
+ <div id="items" class="container-fluid mt-5">
+
+<div class="row ms-3">
+  <div class="col-lg mt-2 ">
+    <div class="card" style="width: 18rem;" id="card1">
+      <div class="card-body">
+        <h3 class="card-title">Vegetable</h3>
+        <p class="card-text">Local market</p>
+        <a href="http://127.0.0.1:5500/vegetable.html" id="img1"><img src="./media/vege.png" alt="" width="80px"></a>
+      </div>
+    </div>
+  </div>
+<div class="col-lg mt-2 ">
+    <div class="card" style="width: 18rem;" id="card1">
+      <div class="card-body">
+        <h3 class="card-title">Snacks & Bread</h3>
+        <p class="card-text">Local market</p>
+        <a href="" id="img1"><img src="./media/bread.png" alt="" width="80px"></a>
+      </div>
+    </div>
+</div>
+  <div class="col-lg mt-2">
+    <div class="card" style="width: 18rem;" id="card1">
+      <div class="card-body">
+        <h3 class="card-title">Fruits</h3>
+        <p class="card-text">Comical Free</p>
+        <a href="#" id="img1"><img src="./media/fruits.png" alt="" width="80px"></a>
+      </div>
+    </div>
+  </div>
+ <div class="col-lg mt-2 ">
+    <div class="card" style="width: 18rem;" id="card1">
+      <div class="card-body">
+        <h3 class="card-title">milk $ Dairy</h3>
+        <p class="card-text">process food</p>
+        <a href="#" id="img1"><img src="./media/milk.png" alt="" width="80px"></a>
+      </div>
+    </div>
+ </div>
+  
+</div>
+</div>
+
+
+<!-- you need -->
+ <div class="container mt-5">
+
+<h1>You Might Need</h1>
+
+
+<div class="row   row-gap-5">
+  <div class="col-lg-3  col-md-4">
+    <div class="card">
+      <img src="./media/cabbage_0_5-240-removebg-preview.png " class="card-img-top w-75 ms-3 mt-2" alt="..." >
+      <div class="card-body">
+        <h4 class="card-title">Cabbage</h4>
+        <h5 class="card-text">(Local Shop)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹40</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/apple_158989157-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Apple</h4>
+        <h5 class="card-text">(Local Shop)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹80</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/cheese.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Cheese</h4>
+        <h5 class="card-text">(Proccess food)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹200</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="col-lg-3 col-md-4  col-sm-6">
+    <div class="card">
+      <img src="./media/pepsi.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">cold Drinks</h4>
+        <h5 class="card-text">(Pepsi)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹200</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- next -->
+ <div class="row mt-5  row-gap-5">
+  <div class="col-lg-3  col-md-4">
+    <div class="card">
+      <img src="./media/milk-bread-removebg-preview.png " class="card-img-top w-75 ms-3 mt-2" alt="..." >
+      <div class="card-body">
+        <h4 class="card-title">Bread</h4>
+        <h5 class="card-text">(Local Shop)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹40</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/carrot-01-removebg-preview.png "class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Carrot</h4>
+        <h5 class="card-text">(Local Shop)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹25</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/chips.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">cheetos</h4>
+        <h5 class="card-text">(Chips)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹20</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="col-lg-3 col-md-4  col-sm-6">
+    <div class="card">
+      <img src="./media/hps-cucumbers-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Cucumber</h4>
+        <h5 class="card-text">(Local Shop)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹50</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<!-- banner -->
+<div id="back">
+
+<div id="text">
+  <h1>Stay home and get all <br> your essentials from <br>our market</h1><br>
+  <p>Download the app from app store or Google play</p>
+  <img src="./media/ukraine-kropyvnytskyi-april-26-2023-260nw-2293917457-removebg-preview.png" alt="">
+</div>
+<div id="del">
+
+  <img src="./media/Supermarket-delivery-man-wearing-medical-mask-while-holding-food-and-groceries-basket-isolated-on-transparent-background-PNG-removebg-preview.png" alt="" width="400px">
+</div>
+
+
+</div></div>
+
+<!-- just -->
+
+<div class="container mt-5">
+
+<h1>Just For You</h1>
+
+
+<div class="row mt-5  row-gap-5">
+  <div class="col-lg-3  col-md-4">
+    <div class="card">
+      <img src="./media/Dukes_Masala-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="..." >
+      <div class="card-body">
+        <h4 class="card-title">Duke masala</h4>
+        <h5 class="card-text">(Biscuit)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹100</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/Fried_chicken-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Fried Chicken</h4>
+        <h5 class="card-text">(Meatzza)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹300</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card">
+      <img src="./media/Nissian_noodles-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Nissin Geki</h4>
+        <h5 class="card-text">( Cheese Noodles)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹150</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div class="col-lg-3 col-md-4  col-sm-6">
+    <div class="card">
+      <img src="./media/nuggets-removebg-preview.png" class="card-img-top w-75 ms-3 mt-2" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Smileys Chicken</h4>
+        <h5 class="card-text">(nuggets)</h5>
+        <p class="card-text">500gm</p>
+        <h3 class="card-text">₹200</h3>
+        <button class="btn btn-warning" id="btns">+</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- discount0 -->
+ <div id="discount">
+<div id="dis">
+<h2>Get upto 50% off</h2>
+<img src="./media/sale-off-discount-promotion-set-260nw-2474173719-removebg-preview.png" alt="">
+
+</div>
+ </div>
+ </div>
+
+
+
+
+<!-- footer -->
+<div class="container-fluid">
+   <footer >
+  <div id="flex">
+    <div id="logo"><a  href="#"><img src="./media/logo-removebg-preview.png" alt="" width="50px"><h2>FRESH MART</h2></a>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Esse voluptatibus praesentium blanditiis harum cum quae .</p>
+    
+    
+    </div>
+    
+    <div id="dept">
+    <h3>Department</h3>
+    <ul type="none">
+      <li>Frozen food</li>
+      <li>Fashion</li>
+      <li>Beverages</li>
+      <li>Oraganic Grocery</li>
+      <li>Beauty products</li>
+    </ul>
+    </div>
+    <div id="about">
+    <h3>About us</h3>
+    <ul type="none">
+      <li>Shop Cart</li>
+      <li>Help</li>
+      <li>Carrers</li>
+    </ul>
+    
+    
+    
+    </div>
+    
+    <div id="service">
+      <h3>Services</h3>
+      <ul type="none">
+        <li>Gift card</li>
+        <li>Mobile app</li>
+        <li>Shipping & Delivery</li>
+        <li>Order Pickup</li>
+        
+      </ul>
+    
+    
+    
+    </div>
+  </div>
+<hr>
+<div id="use">
+<p>terms of use</p>
+<p>Privcy policy</p>
+<p>All right reserved by Rizwan|2025</p>
+
+</div>
+ 
+
+
+   </footer>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</html>
