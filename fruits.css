@@ -8,9 +8,11 @@
  
     padding-top: 100px;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 #mar{
-    margin-left: 50px;
+    margin-left: 20px;
     width: 92%;
     margin-top: 30px;
 }
