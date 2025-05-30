@@ -30,32 +30,6 @@
 #btns{
  width: 100px;
 margin-left: 40px;}
-#back{
-    background-image: url("./media/abstract-smooth-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
-    
-    background-size: cover;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    border-radius: 50px;
-    display: flex;
-  
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 50px;
- 
-   
-  
-    
-}
-#text{
-    margin-left: 50px;
-    margin-top: 50px;}
-    #text p{
-        margin-top: -30px;
-    }
     footer{
     background-color: rgb(210, 196, 171);
     margin-top: 50px;
