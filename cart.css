@@ -1,0 +1,65 @@
+*{
+    font-family: 'Norwester', sans-serif;
+}
+
+#main{
+    background-color: rgb(244,246,246,255);
+    width: 100%;
+ 
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#bt{
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    height: 40px;
+}
+#btns{
+    border-radius: 50%;
+   height: 40px;
+   width: 40px;
+
+}
+    footer{
+    background-color: rgb(210, 196, 171);
+    margin-top: 50px;
+    
+    padding: 50px 50px;
+
+    
+    
+ 
+   
+}
+li{font-weight: 300;
+
+}
+#logo a{
+text-decoration: none;
+}
+#dept h3{
+    margin-left: 10px;
+}
+#about h3{
+    margin-left: 10px;
+}
+#service h3{
+    margin-left: 10px;
+}
+#flex{
+    display: flex;
+        justify-content: space-around;
+}
+#use{
+    display: flex;
+   justify-content: space-around;
+
+}
+#im{
+    margin-left: 15%;
+}
